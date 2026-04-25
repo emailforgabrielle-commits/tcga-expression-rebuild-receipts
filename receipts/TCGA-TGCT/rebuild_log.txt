@@ -1,0 +1,8 @@
+project: TCGA-TGCT
+gdc_file_count: 156
+expected_rows: 9462960
+rows_written: 9099000
+status: PARTIAL
+sha256: ad52ab34bdd3b63e8ac3c2d8484808c17d63e6fdffcb47aed1a2d3256abe07ee
+parts: 3
+timestamp: 2026-04-25T09:42:09.033610
