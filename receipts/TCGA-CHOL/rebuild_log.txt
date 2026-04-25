@@ -1,8 +1,8 @@
 project: TCGA-CHOL
 gdc_file_count: 44
 expected_rows: 2669040
-rows_written: 2608380
-status: PARTIAL
-sha256: 7ed2000fddda700b683d25e5f9b372b7ba674bfea0c7ae3dd8e7da304c07b45c
-parts: 2
-timestamp: 2026-04-25T09:17:51.732023
+rows_written: 2669040
+status: COMPLETE
+sha256: 77eb7c8620cd4d7bfa2276abf6e090167b7c79e535f8eb3347053d50310b07e0
+parts: 3
+timestamp: 2026-04-25T09:31:30.216577
