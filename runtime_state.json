@@ -1,6 +1,6 @@
 {
-  "pid": 214,
-  "current_project": "TCGA-CESC",
+  "pid": 238,
+  "current_project": null,
   "complete": [
     "TCGA-ACC"
   ],
@@ -19,5 +19,6 @@
     "TCGA-UVM"
   ],
   "checkpoint_path": "/outputs/logs/checkpoint.json",
-  "utc": "2026-04-25T09:16:16.399297"
+  "utc": "2026-04-25T09:17:22.127416",
+  "event": "start"
 }
