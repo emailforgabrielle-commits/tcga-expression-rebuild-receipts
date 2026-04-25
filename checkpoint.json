@@ -1,17 +1,8 @@
 {
-  "project": "TCGA-ESCA",
-  "file_idx": 175,
-  "parts_flushed": 1,
-  "rows_so_far": 6059382,
-  "parts": [
-    {
-      "project": "TCGA-ESCA",
-      "part_number": 1,
-      "file_name": "TCGA-ESCA_part001.tsv.gz",
-      "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part001.tsv.gz",
-      "sha256": "3156f9760dc81ba1bb6a933642694d90cd7b79089516ac88b6fe51e7cca6139c",
-      "rows_in_part": 4057602
-    }
-  ],
-  "ts": "2026-04-25T09:22:29.057120"
+  "project": "TCGA-KICH",
+  "file_idx": 25,
+  "parts_flushed": 0,
+  "rows_so_far": 1334520,
+  "parts": [],
+  "ts": "2026-04-25T09:23:55.639838"
 }
