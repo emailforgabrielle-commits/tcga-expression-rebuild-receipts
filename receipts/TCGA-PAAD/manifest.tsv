@@ -1,0 +1,4 @@
+project	part_number	download_url	file_name	sha256	rows_in_part
+TCGA-PAAD	1	SANDBOX:/outputs/parts/TCGA-PAAD/TCGA-PAAD_part001.tsv.gz	TCGA-PAAD_part001.tsv.gz	8688e977dfaa73b3573d950a1cf8c88c8e9be86d907bbcd0b23666fdc2b97bfe	4003560
+TCGA-PAAD	2	SANDBOX:/outputs/parts/TCGA-PAAD/TCGA-PAAD_part002.tsv.gz	TCGA-PAAD_part002.tsv.gz	3587482cc1d3f0824daddfb0777f3ad7ce7efea0f3b144ac89e3efd8df67d4af	4003560
+TCGA-PAAD	3	SANDBOX:/outputs/parts/TCGA-PAAD/TCGA-PAAD_part003.tsv.gz	TCGA-PAAD_part003.tsv.gz	67b6b60e5293e01b5ff834c8bcb7653f314692de89a47a6a408bea0bf6b38384	2790360
