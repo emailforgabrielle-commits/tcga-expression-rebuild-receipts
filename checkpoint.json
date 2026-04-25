@@ -1,17 +1,8 @@
 {
-  "project": "TCGA-MESO",
-  "file_idx": 75,
-  "parts_flushed": 1,
-  "rows_so_far": 4549500,
-  "parts": [
-    {
-      "project": "TCGA-MESO",
-      "part_number": 1,
-      "file_name": "TCGA-MESO_part001.tsv.gz",
-      "local_path": "/outputs/parts/TCGA-MESO/TCGA-MESO_part001.tsv.gz",
-      "sha256": "d0835628d1a71bab6b38bd4d81292366a9f0061535a34a32a6163f61e0729d5a",
-      "rows_in_part": 4003560
-    }
-  ],
-  "ts": "2026-04-25T09:27:24.049783"
+  "project": "TCGA-PAAD",
+  "file_idx": 25,
+  "parts_flushed": 0,
+  "rows_so_far": 1516500,
+  "parts": [],
+  "ts": "2026-04-25T09:28:29.491609"
 }
