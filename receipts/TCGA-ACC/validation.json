@@ -1,0 +1,45 @@
+{
+  "project": "TCGA-ACC",
+  "gdc_file_count": 79,
+  "expected_rows": 4792140,
+  "rows_written": 4792140,
+  "schema": [
+    "gene_id",
+    "case_submitter_id",
+    "cancer_type_id",
+    "raw_count"
+  ],
+  "part_count": 2,
+  "sha256": "358848522f1e05cefcabff08dd1c524a66590558528c057a4f5231c70fba6d19",
+  "parts": [
+    {
+      "project": "TCGA-ACC",
+      "part_number": 1,
+      "file_name": "TCGA-ACC_part001.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-ACC/TCGA-ACC_part001.tsv.gz",
+      "sha256": "a239d846ab6a7c8feb6cecd49ef6a39d5c65b41a8304813b985d66766722dcbd",
+      "rows_in_part": 4003560,
+      "download_url": null
+    },
+    {
+      "project": "TCGA-ACC",
+      "part_number": 2,
+      "file_name": "TCGA-ACC_part002.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-ACC/TCGA-ACC_part002.tsv.gz",
+      "sha256": "16b41db4fba65ad96e0c603ef7e955be9884447015dc9602b8329fb9720f39bb",
+      "rows_in_part": 788580,
+      "download_url": null
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "row_count_match": true,
+    "no_missing": true,
+    "no_dups": true,
+    "gz_valid": true,
+    "missing_files": [],
+    "dup_cases": []
+  },
+  "status": "COMPLETE",
+  "timestamp": "2026-04-25T08:36:22.928642"
+}
