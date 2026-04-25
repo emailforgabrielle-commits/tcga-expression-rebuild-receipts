@@ -1,2 +1,3 @@
-project	part_number	download_url	file_name	sha256	rows_in_part
-TCGA-CHOL	1	SANDBOX:/outputs/parts/TCGA-CHOL/TCGA-CHOL_part001.tsv.gz	TCGA-CHOL_part001.tsv.gz	6bb9a9acaaec8d8c6072331e3407a716e8e3901f8dbc460a8fe466a57621d2cd	2183760
+project	part_number	file_name	sha256	rows_in_part
+TCGA-CHOL	1	TCGA-CHOL_part001.tsv.gz	6bb9a9acaaec8d8c6072331e3407a716e8e3901f8dbc460a8fe466a57621d2cd	2183760
+TCGA-CHOL	2	TCGA-CHOL_part002.tsv.gz	16f02192603fbc942c6fce6e9275b294d88ba4495a45349e619d1385d145fecc	424620
