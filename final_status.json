@@ -1,34 +1,140 @@
 {
-  "complete": [
+  "canonical_complete_projects": [
     "TCGA-ACC",
-    "TCGA-CESC",
     "TCGA-DLBC",
-    "TCGA-MESO",
-    "TCGA-CHOL"
+    "TCGA-MESO"
   ],
-  "failed": [
+  "failed_projects": [
+    {
+      "project": "TCGA-CESC",
+      "rows_written": 18440640,
+      "expected_rows": 18743940,
+      "missing": [],
+      "dups": [
+        "TCGA-UC-A7PG",
+        "TCGA-HM-A6W2",
+        "TCGA-MY-A5BF",
+        "TCGA-FU-A3EO",
+        "TCGA-HM-A3JJ"
+      ]
+    },
+    {
+      "project": "TCGA-CHOL",
+      "rows_written": 2183760,
+      "expected_rows": 2669040,
+      "missing": [],
+      "dups": [
+        "TCGA-W5-AA2Q",
+        "TCGA-W5-AA2X",
+        "TCGA-W5-AA2U",
+        "TCGA-W5-AA34",
+        "TCGA-ZU-A8S4",
+        "TCGA-W5-AA2I",
+        "TCGA-W5-AA31",
+        "TCGA-W5-AA30"
+      ]
+    },
     {
       "project": "TCGA-ESCA",
-      "rows_written": 12064722,
+      "rows_written": 10433520,
       "expected_rows": 12010680,
-      "missing": []
+      "missing": [
+        "996c69b3-c15a-41bb-8105-f2b4a5b40325",
+        "5efffedb-3feb-4a77-986f-9ff71401feea",
+        "c82aed75-4433-42db-adee-d1f72afb4511",
+        "505d91b6-cd2e-44c8-b4db-84719ec7f0d5",
+        "34379f77-89bb-47df-9860-170da0d73290",
+        "255f00f9-7b20-47ca-ba22-0c3334370c47",
+        "829cec76-5e10-474e-93a1-797a01b99aca",
+        "7c0bd907-317a-4b44-8f21-4aaf1da64290",
+        "5693ee07-e666-4f90-b254-d5a3c6eeaa92",
+        "0024696f-27f5-4d5d-a933-d8c8c52146a6",
+        "6ca4ed15-37d0-4046-a7a7-c20ec11c00f2",
+        "beade8e5-3854-40f7-a535-8a82e1e4eb54"
+      ],
+      "dups": [
+        "TCGA-V5-A7RE",
+        "TCGA-L5-A4OF",
+        "TCGA-L5-A4OR",
+        "TCGA-L5-A4OM",
+        "TCGA-V5-A7RC",
+        "TCGA-L5-A4OG",
+        "TCGA-V5-AASX",
+        "TCGA-IC-A6RF",
+        "TCGA-L5-A4OO",
+        "TCGA-L5-A4OQ",
+        "TCGA-IC-A6RE",
+        "TCGA-IG-A3I8",
+        "TCGA-L5-A43C",
+        "TCGA-L5-A4OJ"
+      ]
     },
     {
       "project": "TCGA-KICH",
-      "rows_written": 5338080,
+      "rows_written": 4003560,
       "expected_rows": 5520060,
-      "missing": []
+      "missing": [],
+      "dups": [
+        "TCGA-KL-8339",
+        "TCGA-KO-8415",
+        "TCGA-KN-8419",
+        "TCGA-KN-8434",
+        "TCGA-KN-8436",
+        "TCGA-KN-8437",
+        "TCGA-KN-8430",
+        "TCGA-KN-8429",
+        "TCGA-KN-8423",
+        "TCGA-KN-8428",
+        "TCGA-KN-8422",
+        "TCGA-KL-8332",
+        "TCGA-KO-8403",
+        "TCGA-KN-8424",
+        "TCGA-KN-8426",
+        "TCGA-KN-8427",
+        "TCGA-KL-8329",
+        "TCGA-KL-8326",
+        "TCGA-KN-8431",
+        "TCGA-KN-8425",
+        "TCGA-KN-8433",
+        "TCGA-KN-8435",
+        "TCGA-KL-8336",
+        "TCGA-KN-8432",
+        "TCGA-KL-8324"
+      ]
     },
     {
       "project": "TCGA-PAAD",
-      "rows_written": 10372860,
+      "rows_written": 10797480,
       "expected_rows": 11100780,
-      "missing": []
+      "missing": [],
+      "dups": [
+        "TCGA-HV-A5A3",
+        "TCGA-HZ-A9TJ",
+        "TCGA-H6-A45N",
+        "TCGA-H6-8124",
+        "TCGA-YB-A89D"
+      ]
+    },
+    {
+      "project": "TCGA-PCPG",
+      "rows_written": 10858140,
+      "expected_rows": 11343420,
+      "missing": [],
+      "dups": [
+        "TCGA-P8-A5KC",
+        "TCGA-RW-A686",
+        "TCGA-QR-A6GZ",
+        "TCGA-P7-A5NY",
+        "TCGA-P8-A5KD",
+        "TCGA-SR-A6MX",
+        "TCGA-SR-A6MX",
+        "TCGA-SQ-A6I4"
+      ]
     }
   ],
-  "blocked": [],
-  "total_rows": 65263542,
+  "blocked_projects": [],
+  "total_rows": 78797340,
   "total_parts": 24,
   "safe_for_ingest": false,
-  "generated_utc": "2026-04-25T09:38:02.880493"
+  "generated_utc": "2026-04-25T09:37:52.145557"
 }
