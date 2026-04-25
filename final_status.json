@@ -2,17 +2,27 @@
   "complete": [
     "TCGA-ACC",
     "TCGA-CESC",
-    "TCGA-CHOL",
     "TCGA-DLBC",
-    "TCGA-MESO"
+    "TCGA-MESO",
+    "TCGA-CHOL"
   ],
-  "remaining": [
-    "TCGA-PCPG",
-    "TCGA-TGCT",
-    "TCGA-THYM",
-    "TCGA-UCS",
-    "TCGA-UVM"
+  "failed": [
+    {
+      "project": "TCGA-ESCA",
+      "rows_written": 12064722,
+      "expected_rows": 12010680,
+      "missing": []
+    },
+    {
+      "project": "TCGA-KICH",
+      "rows_written": 5338080,
+      "expected_rows": 5520060,
+      "missing": []
+    }
   ],
-  "total_rows": 56285862,
-  "reconciled_utc": "2026-04-25T09:36:28.073676"
+  "blocked": [],
+  "total_rows": 62169882,
+  "total_parts": 23,
+  "safe_for_ingest": false,
+  "generated_utc": "2026-04-25T09:36:33.661549"
 }
