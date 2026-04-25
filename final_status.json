@@ -1,0 +1,21 @@
+{
+  "complete": [
+    "TCGA-ACC"
+  ],
+  "remaining": [
+    "TCGA-CESC",
+    "TCGA-CHOL",
+    "TCGA-DLBC",
+    "TCGA-ESCA",
+    "TCGA-KICH",
+    "TCGA-MESO",
+    "TCGA-PAAD",
+    "TCGA-PCPG",
+    "TCGA-TGCT",
+    "TCGA-THYM",
+    "TCGA-UCS",
+    "TCGA-UVM"
+  ],
+  "total_rows": 4792140,
+  "reconciled_utc": "2026-04-25T09:06:25.909787"
+}
