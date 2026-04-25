@@ -2,22 +2,7 @@
   {
     "part_number": 1,
     "file_name": "TCGA-PCPG_part001.tsv.gz",
-    "sha256": "7a9c5abcb5d8919bceee529d3e11ec6dfb4a8da758d324803200c91889c42548",
-    "rows": 4003560,
-    "size_mb": 0.17
-  },
-  {
-    "part_number": 2,
-    "file_name": "TCGA-PCPG_part002.tsv.gz",
-    "sha256": "a0fff27978bd3a48ee59b6a8b716af9c5ca3a0e31bf14a9a75b8d70d831a8ff3",
-    "rows": 4003560,
-    "size_mb": 16.43
-  },
-  {
-    "part_number": 3,
-    "file_name": "TCGA-PCPG_part003.tsv.gz",
-    "sha256": "f23ab8e5795a210c9448d521864d019a8222401ae4de24db2d61962ec994d564",
-    "rows": 2851020,
-    "size_mb": 11.69
+    "sha256": "b710f937a63094f8fd599f479ec99026bf2e17c1c667f222d0e6cdc72ca20203",
+    "rows": 3093660
   }
 ]
