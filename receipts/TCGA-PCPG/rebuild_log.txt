@@ -1,8 +1,8 @@
 project: TCGA-PCPG
 gdc_file_count: 187
 expected_rows: 11343420
-rows_written: 10858140
+rows_written: 3093660
 status: PARTIAL
-sha256: b63cc29a4717979b746be22be85ab3311da27ee90d0927b0677118d40fb68bda
-parts: 3
-timestamp: 2026-04-25T09:37:45.006166
+sha256: a75363097d392f7ec99506c21f6498462f3dfcde6b128e9628f5b468a8194497
+parts: 1
+timestamp: 2026-04-25T09:37:59.943505
