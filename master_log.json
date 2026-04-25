@@ -124,5 +124,53 @@
     },
     "status": "PARTIAL",
     "timestamp": "2026-04-25T09:06:15.908194"
+  },
+  "TCGA-CHOL": {
+    "project": "TCGA-CHOL",
+    "gdc_file_count": 44,
+    "expected_rows": 2669040,
+    "rows_written": 2183760,
+    "schema": [
+      "gene_id",
+      "case_submitter_id",
+      "cancer_type_id",
+      "raw_count"
+    ],
+    "part_count": 1,
+    "sha256": "53b1f6a15f0c7cf5d392693aa10ecd78e06bfc5e3958f5b7d3a18e7ebb6387c5",
+    "parts": [
+      {
+        "project": "TCGA-CHOL",
+        "part_number": 1,
+        "file_name": "TCGA-CHOL_part001.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-CHOL/TCGA-CHOL_part001.tsv.gz",
+        "sha256": "6bb9a9acaaec8d8c6072331e3407a716e8e3901f8dbc460a8fe466a57621d2cd",
+        "rows_in_part": 2183760,
+        "download_url": null
+      }
+    ],
+    "validation": {
+      "passed": false,
+      "row_count_match": false,
+      "no_missing": true,
+      "no_dups": false,
+      "parts_exist": true,
+      "gz_valid": true,
+      "missing_files": [],
+      "dup_cases": [
+        "TCGA-W5-AA2Q",
+        "TCGA-W5-AA2X",
+        "TCGA-W5-AA2U",
+        "TCGA-W5-AA34",
+        "TCGA-ZU-A8S4",
+        "TCGA-W5-AA2I",
+        "TCGA-W5-AA31",
+        "TCGA-W5-AA30"
+      ],
+      "expected_rows": 2669040,
+      "rows_written": 2183760
+    },
+    "status": "PARTIAL",
+    "timestamp": "2026-04-25T09:14:56.298494"
   }
 }
