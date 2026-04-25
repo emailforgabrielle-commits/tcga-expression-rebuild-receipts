@@ -3,20 +3,10 @@
     "TCGA-ACC",
     "TCGA-CESC"
   ],
-  "remaining": [
-    "TCGA-CHOL",
-    "TCGA-DLBC",
-    "TCGA-ESCA",
-    "TCGA-KICH",
-    "TCGA-MESO",
-    "TCGA-PAAD",
-    "TCGA-PCPG",
-    "TCGA-TGCT",
-    "TCGA-THYM",
-    "TCGA-UCS",
-    "TCGA-UVM"
-  ],
-  "total_rows": 25719840,
-  "total_parts": 9,
-  "reconciled_utc": "2026-04-25T09:17:37.131051"
+  "failed": [],
+  "blocked": [],
+  "total_rows": 26144460,
+  "total_parts": 10,
+  "safe_for_ingest": false,
+  "generated_utc": "2026-04-25T09:17:54.866983"
 }
