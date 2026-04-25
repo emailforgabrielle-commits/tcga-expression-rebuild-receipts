@@ -1,8 +1,8 @@
 project: TCGA-KICH
 gdc_file_count: 91
 expected_rows: 5520060
-rows_written: 4003560
+rows_written: 5338080
 status: PARTIAL
-sha256: 39b11a8e19558caa7f690441d6e80089d4247770e9e3d7ea6672510b9538f4f5
-parts: 1
-timestamp: 2026-04-25T09:25:18.805024
+sha256: d951e8ccaa533996631049810fec4dfecf42bea669ede0b85aa20bde4974cc97
+parts: 2
+timestamp: 2026-04-25T09:33:24.129653
