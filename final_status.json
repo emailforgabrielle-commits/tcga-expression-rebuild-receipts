@@ -3,38 +3,19 @@
     "TCGA-ACC",
     "TCGA-CESC",
     "TCGA-DLBC",
+    "TCGA-ESCA",
     "TCGA-MESO",
-    "TCGA-CHOL"
+    "TCGA-TGCT"
   ],
-  "failed": [
-    {
-      "project": "TCGA-ESCA",
-      "rows_written": 12064722,
-      "expected_rows": 12010680,
-      "missing": []
-    },
-    {
-      "project": "TCGA-KICH",
-      "rows_written": 5338080,
-      "expected_rows": 5520060,
-      "missing": []
-    },
-    {
-      "project": "TCGA-PAAD",
-      "rows_written": 10372860,
-      "expected_rows": 11100780,
-      "missing": []
-    },
-    {
-      "project": "TCGA-PCPG",
-      "rows_written": 3093660,
-      "expected_rows": 11343420,
-      "missing": []
-    }
+  "remaining": [
+    "TCGA-CHOL",
+    "TCGA-KICH",
+    "TCGA-PAAD",
+    "TCGA-PCPG",
+    "TCGA-THYM",
+    "TCGA-UCS",
+    "TCGA-UVM"
   ],
-  "blocked": [],
-  "total_rows": 74362542,
-  "total_parts": 27,
-  "safe_for_ingest": false,
-  "generated_utc": "2026-04-25T09:42:19.922427"
+  "total_rows": 62055180,
+  "generated_utc": "2026-04-25T10:37:40.977084"
 }
