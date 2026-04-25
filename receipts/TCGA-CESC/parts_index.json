@@ -3,35 +3,36 @@
     "part_number": 1,
     "file_name": "TCGA-CESC_part001.tsv.gz",
     "sha256": "93cf416cd91ca66a1bcefd27adf01bc4db14c2ca0cccb03232e99fbad23409a3",
-    "rows": 4003560,
-    "size_mb": 16.53
+    "rows": 4003560
   },
   {
     "part_number": 2,
     "file_name": "TCGA-CESC_part002.tsv.gz",
     "sha256": "853bf0340edf554ec4b8519a0a5e8504c6e155918bd7c38087a9176b51d83648",
-    "rows": 4003560,
-    "size_mb": 16.52
+    "rows": 4003560
   },
   {
     "part_number": 3,
     "file_name": "TCGA-CESC_part003.tsv.gz",
     "sha256": "570e61aa8732876cea751ca65e5b84bec1f62330224fcaa08ef1fafd4ef6f8bd",
-    "rows": 4003560,
-    "size_mb": 16.5
+    "rows": 4003560
   },
   {
     "part_number": 4,
     "file_name": "TCGA-CESC_part004.tsv.gz",
     "sha256": "e67dce3769e67b808a1731abf1033d8eaf28c534618a54984f245d23881d324a",
-    "rows": 4003560,
-    "size_mb": 16.49
+    "rows": 4003560
   },
   {
     "part_number": 5,
     "file_name": "TCGA-CESC_part005.tsv.gz",
     "sha256": "07a78c44841f227381b4aefc1d40f875e11ba0511fe4bb03789300ceaa848051",
-    "rows": 2426400,
-    "size_mb": 10.03
+    "rows": 2426400
+  },
+  {
+    "part_number": 6,
+    "file_name": "TCGA-CESC_part006.tsv.gz",
+    "sha256": "cb6ee41b2b6c35147e104cc7d65de9caf4697d8f1d6d2d8ad6240686d6a26f81",
+    "rows": 303300
   }
 ]
