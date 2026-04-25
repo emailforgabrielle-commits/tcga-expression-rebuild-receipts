@@ -1,0 +1,8 @@
+project: TCGA-PAAD
+gdc_file_count: 183
+expected_rows: 11100780
+rows_written: 10797480
+status: PARTIAL
+sha256: 55ceb4e525075f6968338acd367c79dce1ad7e3d97bfad86c25f5c1acbdc16d1
+parts: 3
+timestamp: 2026-04-25T09:32:49.133071
