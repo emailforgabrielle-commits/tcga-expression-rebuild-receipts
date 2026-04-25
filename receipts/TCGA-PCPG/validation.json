@@ -1,0 +1,66 @@
+{
+  "project": "TCGA-PCPG",
+  "gdc_file_count": 187,
+  "expected_rows": 11343420,
+  "rows_written": 10858140,
+  "schema": [
+    "gene_id",
+    "case_submitter_id",
+    "cancer_type_id",
+    "raw_count"
+  ],
+  "part_count": 3,
+  "sha256": "b63cc29a4717979b746be22be85ab3311da27ee90d0927b0677118d40fb68bda",
+  "parts": [
+    {
+      "project": "TCGA-PCPG",
+      "part_number": 1,
+      "file_name": "TCGA-PCPG_part001.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-PCPG/TCGA-PCPG_part001.tsv.gz",
+      "sha256": "7a9c5abcb5d8919bceee529d3e11ec6dfb4a8da758d324803200c91889c42548",
+      "rows_in_part": 4003560,
+      "download_url": null
+    },
+    {
+      "project": "TCGA-PCPG",
+      "part_number": 2,
+      "file_name": "TCGA-PCPG_part002.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-PCPG/TCGA-PCPG_part002.tsv.gz",
+      "sha256": "a0fff27978bd3a48ee59b6a8b716af9c5ca3a0e31bf14a9a75b8d70d831a8ff3",
+      "rows_in_part": 4003560,
+      "download_url": null
+    },
+    {
+      "project": "TCGA-PCPG",
+      "part_number": 3,
+      "file_name": "TCGA-PCPG_part003.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-PCPG/TCGA-PCPG_part003.tsv.gz",
+      "sha256": "f23ab8e5795a210c9448d521864d019a8222401ae4de24db2d61962ec994d564",
+      "rows_in_part": 2851020,
+      "download_url": null
+    }
+  ],
+  "validation": {
+    "passed": false,
+    "row_count_match": false,
+    "no_missing": true,
+    "no_dups": false,
+    "parts_exist": true,
+    "gz_valid": true,
+    "missing_files": [],
+    "dup_cases": [
+      "TCGA-P8-A5KC",
+      "TCGA-RW-A686",
+      "TCGA-QR-A6GZ",
+      "TCGA-P7-A5NY",
+      "TCGA-P8-A5KD",
+      "TCGA-SR-A6MX",
+      "TCGA-SR-A6MX",
+      "TCGA-SQ-A6I4"
+    ],
+    "expected_rows": 11343420,
+    "rows_written": 10858140
+  },
+  "status": "PARTIAL",
+  "timestamp": "2026-04-25T09:32:56.269157"
+}
