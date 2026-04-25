@@ -48,15 +48,15 @@
     "project": "TCGA-CESC",
     "gdc_file_count": 309,
     "expected_rows": 18743940,
-    "rows_written": 18743940,
+    "rows_written": 18440640,
     "schema": [
       "gene_id",
       "case_submitter_id",
       "cancer_type_id",
       "raw_count"
     ],
-    "part_count": 6,
-    "sha256": "8df3bebe2f31c1c81d2cadade4b8bd0a18355e67fc795693d1b7ffe93e40c321",
+    "part_count": 5,
+    "sha256": "b9772944e14e89a9f7825a8b599dbf0c32bf8c323360b4736ca08f813ca3e803",
     "parts": [
       {
         "project": "TCGA-CESC",
@@ -64,7 +64,8 @@
         "file_name": "TCGA-CESC_part001.tsv.gz",
         "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part001.tsv.gz",
         "sha256": "93cf416cd91ca66a1bcefd27adf01bc4db14c2ca0cccb03232e99fbad23409a3",
-        "rows_in_part": 4003560
+        "rows_in_part": 4003560,
+        "download_url": null
       },
       {
         "project": "TCGA-CESC",
@@ -72,7 +73,8 @@
         "file_name": "TCGA-CESC_part002.tsv.gz",
         "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part002.tsv.gz",
         "sha256": "853bf0340edf554ec4b8519a0a5e8504c6e155918bd7c38087a9176b51d83648",
-        "rows_in_part": 4003560
+        "rows_in_part": 4003560,
+        "download_url": null
       },
       {
         "project": "TCGA-CESC",
@@ -80,7 +82,8 @@
         "file_name": "TCGA-CESC_part003.tsv.gz",
         "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part003.tsv.gz",
         "sha256": "570e61aa8732876cea751ca65e5b84bec1f62330224fcaa08ef1fafd4ef6f8bd",
-        "rows_in_part": 4003560
+        "rows_in_part": 4003560,
+        "download_url": null
       },
       {
         "project": "TCGA-CESC",
@@ -88,7 +91,8 @@
         "file_name": "TCGA-CESC_part004.tsv.gz",
         "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part004.tsv.gz",
         "sha256": "e67dce3769e67b808a1731abf1033d8eaf28c534618a54984f245d23881d324a",
-        "rows_in_part": 4003560
+        "rows_in_part": 4003560,
+        "download_url": null
       },
       {
         "project": "TCGA-CESC",
@@ -96,45 +100,44 @@
         "file_name": "TCGA-CESC_part005.tsv.gz",
         "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part005.tsv.gz",
         "sha256": "07a78c44841f227381b4aefc1d40f875e11ba0511fe4bb03789300ceaa848051",
-        "rows_in_part": 2426400
-      },
-      {
-        "project": "TCGA-CESC",
-        "part_number": 6,
-        "file_name": "TCGA-CESC_part006.tsv.gz",
-        "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part006.tsv.gz",
-        "sha256": "cb6ee41b2b6c35147e104cc7d65de9caf4697d8f1d6d2d8ad6240686d6a26f81",
-        "rows_in_part": 303300
+        "rows_in_part": 2426400,
+        "download_url": null
       }
     ],
     "validation": {
-      "passed": true,
-      "row_count_match": true,
+      "passed": false,
+      "row_count_match": false,
       "no_missing": true,
-      "no_dups": true,
+      "no_dups": false,
       "parts_exist": true,
       "gz_valid": true,
       "missing_files": [],
-      "dup_cases": [],
+      "dup_cases": [
+        "TCGA-UC-A7PG",
+        "TCGA-HM-A6W2",
+        "TCGA-MY-A5BF",
+        "TCGA-FU-A3EO",
+        "TCGA-HM-A3JJ"
+      ],
       "expected_rows": 18743940,
-      "rows_written": 18743940
+      "rows_written": 18440640
     },
-    "status": "COMPLETE",
-    "timestamp": "2026-04-25T09:17:22.873280"
+    "status": "PARTIAL",
+    "timestamp": "2026-04-25T09:06:15.908194"
   },
   "TCGA-CHOL": {
     "project": "TCGA-CHOL",
     "gdc_file_count": 44,
     "expected_rows": 2669040,
-    "rows_written": 2669040,
+    "rows_written": 2183760,
     "schema": [
       "gene_id",
       "case_submitter_id",
       "cancer_type_id",
       "raw_count"
     ],
-    "part_count": 3,
-    "sha256": "77eb7c8620cd4d7bfa2276abf6e090167b7c79e535f8eb3347053d50310b07e0",
+    "part_count": 1,
+    "sha256": "53b1f6a15f0c7cf5d392693aa10ecd78e06bfc5e3958f5b7d3a18e7ebb6387c5",
     "parts": [
       {
         "project": "TCGA-CHOL",
@@ -142,39 +145,33 @@
         "file_name": "TCGA-CHOL_part001.tsv.gz",
         "local_path": "/outputs/parts/TCGA-CHOL/TCGA-CHOL_part001.tsv.gz",
         "sha256": "6bb9a9acaaec8d8c6072331e3407a716e8e3901f8dbc460a8fe466a57621d2cd",
-        "rows_in_part": 2183760
-      },
-      {
-        "project": "TCGA-CHOL",
-        "part_number": 2,
-        "file_name": "TCGA-CHOL_part002.tsv.gz",
-        "local_path": "/outputs/parts/TCGA-CHOL/TCGA-CHOL_part002.tsv.gz",
-        "sha256": "16f02192603fbc942c6fce6e9275b294d88ba4495a45349e619d1385d145fecc",
-        "rows_in_part": 424620
-      },
-      {
-        "project": "TCGA-CHOL",
-        "part_number": 3,
-        "file_name": "TCGA-CHOL_part003.tsv.gz",
-        "local_path": "/outputs/parts/TCGA-CHOL/TCGA-CHOL_part003.tsv.gz",
-        "sha256": "d011b98d517f27680dd1d0b6f2e69061264fec4a2d748d07d474e22e203a3223",
-        "rows_in_part": 60660
+        "rows_in_part": 2183760,
+        "download_url": null
       }
     ],
     "validation": {
-      "passed": true,
-      "row_count_match": true,
+      "passed": false,
+      "row_count_match": false,
       "no_missing": true,
-      "no_dups": true,
+      "no_dups": false,
       "parts_exist": true,
       "gz_valid": true,
       "missing_files": [],
-      "dup_cases": [],
+      "dup_cases": [
+        "TCGA-W5-AA2Q",
+        "TCGA-W5-AA2X",
+        "TCGA-W5-AA2U",
+        "TCGA-W5-AA34",
+        "TCGA-ZU-A8S4",
+        "TCGA-W5-AA2I",
+        "TCGA-W5-AA31",
+        "TCGA-W5-AA30"
+      ],
       "expected_rows": 2669040,
-      "rows_written": 2669040
+      "rows_written": 2183760
     },
-    "status": "COMPLETE",
-    "timestamp": "2026-04-25T09:31:27.864655"
+    "status": "PARTIAL",
+    "timestamp": "2026-04-25T09:14:56.298494"
   },
   "TCGA-DLBC": {
     "project": "TCGA-DLBC",
@@ -188,15 +185,16 @@
       "raw_count"
     ],
     "part_count": 1,
-    "sha256": "e8d49244d6744cafc0bdb1dd31934a5c9f0b53cb538bebd1eb1ef6d0d1986393",
+    "sha256": "527097e71800f6d0f3ec76aa71eb2d5b702d4bc85cf2d4f1eaf9a44fe255b4d4",
     "parts": [
       {
         "project": "TCGA-DLBC",
         "part_number": 1,
         "file_name": "TCGA-DLBC_part001.tsv.gz",
         "local_path": "/outputs/parts/TCGA-DLBC/TCGA-DLBC_part001.tsv.gz",
-        "sha256": "57b9d2c9048ba30961ed86dbb92bee3ce6f9ec7dfa415ead6dd7223644999d24",
-        "rows_in_part": 2911680
+        "sha256": "0b4313094e04356e8045436f01f4ed25f7b31dfaf38585067f81647511c7a3db",
+        "rows_in_part": 2911680,
+        "download_url": null
       }
     ],
     "validation": {
@@ -212,37 +210,39 @@
       "rows_written": 2911680
     },
     "status": "COMPLETE",
-    "timestamp": "2026-04-25T09:17:56.703514"
+    "timestamp": "2026-04-25T09:16:00.540397"
   },
   "TCGA-ESCA": {
     "project": "TCGA-ESCA",
     "gdc_file_count": 198,
     "expected_rows": 12010680,
-    "rows_written": 12064722,
+    "rows_written": 10433520,
     "schema": [
       "gene_id",
       "case_submitter_id",
       "cancer_type_id",
       "raw_count"
     ],
-    "part_count": 4,
-    "sha256": "8783d1c9fdb5342daa0b4bcc129c3d8cc34b39985336c78169e0675f3bfa262d",
+    "part_count": 3,
+    "sha256": "825ae92b14d0b2be8f77c3786503bdd623aaddebc1d36aabca96eb874cc0c1f2",
     "parts": [
       {
         "project": "TCGA-ESCA",
         "part_number": 1,
         "file_name": "TCGA-ESCA_part001.tsv.gz",
         "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part001.tsv.gz",
-        "sha256": "3156f9760dc81ba1bb6a933642694d90cd7b79089516ac88b6fe51e7cca6139c",
-        "rows_in_part": 4057602
+        "sha256": "f9fc249789c8f9a0bf58c55a239d465df9e461656e41948c5934eea13226d865",
+        "rows_in_part": 4003560,
+        "download_url": null
       },
       {
         "project": "TCGA-ESCA",
         "part_number": 2,
         "file_name": "TCGA-ESCA_part002.tsv.gz",
         "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part002.tsv.gz",
-        "sha256": "57fdd94586fa5626acc75f3f2857706a2dec86d216faa47f33ae2cd167d6f29f",
-        "rows_in_part": 3214980
+        "sha256": "10e09cfa03e956d217a5a0e7ff2d0efe2fa0be15425d737e038b3f7ce4428697",
+        "rows_in_part": 4003560,
+        "download_url": null
       },
       {
         "project": "TCGA-ESCA",
@@ -250,31 +250,52 @@
         "file_name": "TCGA-ESCA_part003.tsv.gz",
         "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part003.tsv.gz",
         "sha256": "87b40c106751fef07cb76bcda20f2681ab7259840e4f0c052a70aa98bb4e4b35",
-        "rows_in_part": 2426400
-      },
-      {
-        "project": "TCGA-ESCA",
-        "part_number": 4,
-        "file_name": "TCGA-ESCA_part004.tsv.gz",
-        "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part004.tsv.gz",
-        "sha256": "d9bb1978791afac272ebed46174b89540bcf3e2fd11a2f1928ff2714c26a23ad",
-        "rows_in_part": 2365740
+        "rows_in_part": 2426400,
+        "download_url": null
       }
     ],
     "validation": {
       "passed": false,
       "row_count_match": false,
-      "no_missing": true,
-      "no_dups": true,
+      "no_missing": false,
+      "no_dups": false,
       "parts_exist": true,
       "gz_valid": true,
-      "missing_files": [],
-      "dup_cases": [],
+      "missing_files": [
+        "996c69b3-c15a-41bb-8105-f2b4a5b40325",
+        "5efffedb-3feb-4a77-986f-9ff71401feea",
+        "c82aed75-4433-42db-adee-d1f72afb4511",
+        "505d91b6-cd2e-44c8-b4db-84719ec7f0d5",
+        "34379f77-89bb-47df-9860-170da0d73290",
+        "255f00f9-7b20-47ca-ba22-0c3334370c47",
+        "829cec76-5e10-474e-93a1-797a01b99aca",
+        "7c0bd907-317a-4b44-8f21-4aaf1da64290",
+        "5693ee07-e666-4f90-b254-d5a3c6eeaa92",
+        "0024696f-27f5-4d5d-a933-d8c8c52146a6",
+        "6ca4ed15-37d0-4046-a7a7-c20ec11c00f2",
+        "beade8e5-3854-40f7-a535-8a82e1e4eb54"
+      ],
+      "dup_cases": [
+        "TCGA-V5-A7RE",
+        "TCGA-L5-A4OF",
+        "TCGA-L5-A4OR",
+        "TCGA-L5-A4OM",
+        "TCGA-V5-A7RC",
+        "TCGA-L5-A4OG",
+        "TCGA-V5-AASX",
+        "TCGA-IC-A6RF",
+        "TCGA-L5-A4OO",
+        "TCGA-L5-A4OQ",
+        "TCGA-IC-A6RE",
+        "TCGA-IG-A3I8",
+        "TCGA-L5-A43C",
+        "TCGA-L5-A4OJ"
+      ],
       "expected_rows": 12010680,
-      "rows_written": 12064722
+      "rows_written": 10433520
     },
     "status": "PARTIAL",
-    "timestamp": "2026-04-25T09:31:35.474860"
+    "timestamp": "2026-04-25T09:17:32.539913"
   },
   "TCGA-KICH": {
     "project": "TCGA-KICH",
@@ -288,15 +309,16 @@
       "raw_count"
     ],
     "part_count": 1,
-    "sha256": "39b11a8e19558caa7f690441d6e80089d4247770e9e3d7ea6672510b9538f4f5",
+    "sha256": "7dc237ec0cd0de264e7e35e437539ac6953d91080981313191366c486bbff6e4",
     "parts": [
       {
         "project": "TCGA-KICH",
         "part_number": 1,
         "file_name": "TCGA-KICH_part001.tsv.gz",
         "local_path": "/outputs/parts/TCGA-KICH/TCGA-KICH_part001.tsv.gz",
-        "sha256": "7da2520c54fd4652d7708246c2d245915aeffdc9b466a443eb28679e8d6e7d10",
-        "rows_in_part": 4003560
+        "sha256": "e03e59db3d925c872d95a8558dcd4550dced2010c4b243672fa446bdfb06888a",
+        "rows_in_part": 4003560,
+        "download_url": null
       }
     ],
     "validation": {
@@ -327,14 +349,18 @@
         "TCGA-KL-8329",
         "TCGA-KL-8326",
         "TCGA-KN-8431",
-        "TCGA-KN-8425"
+        "TCGA-KN-8425",
+        "TCGA-KN-8433",
+        "TCGA-KN-8435",
+        "TCGA-KL-8336",
+        "TCGA-KN-8432",
+        "TCGA-KL-8324"
       ],
       "expected_rows": 5520060,
       "rows_written": 4003560
     },
     "status": "PARTIAL",
-    "timestamp": "2026-04-25T09:23:16.666801",
-    "resume_file_idx": 66
+    "timestamp": "2026-04-25T09:22:56.945733"
   },
   "TCGA-MESO": {
     "project": "TCGA-MESO",
@@ -348,23 +374,25 @@
       "raw_count"
     ],
     "part_count": 2,
-    "sha256": "d4cefc1acaa08781d4ecb073b112818724a5cfd1324a56225d5c8a265f082ed8",
+    "sha256": "1a72f138c99920f814232f6cefbdb1795e9a54ddce9e7c6f18ae9d57967dbc32",
     "parts": [
       {
         "project": "TCGA-MESO",
         "part_number": 1,
         "file_name": "TCGA-MESO_part001.tsv.gz",
         "local_path": "/outputs/parts/TCGA-MESO/TCGA-MESO_part001.tsv.gz",
-        "sha256": "d0835628d1a71bab6b38bd4d81292366a9f0061535a34a32a6163f61e0729d5a",
-        "rows_in_part": 4003560
+        "sha256": "98e1bc5c1c480e968da9be6b1f177c42127739cdc0873c6e75b5de8975974d5a",
+        "rows_in_part": 4003560,
+        "download_url": null
       },
       {
         "project": "TCGA-MESO",
         "part_number": 2,
         "file_name": "TCGA-MESO_part002.tsv.gz",
         "local_path": "/outputs/parts/TCGA-MESO/TCGA-MESO_part002.tsv.gz",
-        "sha256": "d96543b2429e120bd6de20231f905f493ec54e810bddd173cc94e7fbdf8e9a7d",
-        "rows_in_part": 1273860
+        "sha256": "02a40c3b7aef274ac90716c50d08003ed717ebab5c6ea7ccc124e3fcc5951179",
+        "rows_in_part": 1273860,
+        "download_url": null
       }
     ],
     "validation": {
@@ -380,28 +408,69 @@
       "rows_written": 5277420
     },
     "status": "COMPLETE",
-    "timestamp": "2026-04-25T09:25:23.742722"
+    "timestamp": "2026-04-25T09:25:01.485751"
   },
   "TCGA-PAAD": {
     "project": "TCGA-PAAD",
     "gdc_file_count": 183,
     "expected_rows": 11100780,
-    "rows_written": 4488840,
-    "part_count": 1,
-    "sha256": null,
+    "rows_written": 10797480,
+    "schema": [
+      "gene_id",
+      "case_submitter_id",
+      "cancer_type_id",
+      "raw_count"
+    ],
+    "part_count": 3,
+    "sha256": "55ceb4e525075f6968338acd367c79dce1ad7e3d97bfad86c25f5c1acbdc16d1",
     "parts": [
       {
         "project": "TCGA-PAAD",
         "part_number": 1,
         "file_name": "TCGA-PAAD_part001.tsv.gz",
         "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part001.tsv.gz",
-        "sha256": "8bc8c9af9a6c829099135d012512da285cc9878d1abd901972973fc77a56f521",
-        "rows_in_part": 4003560
+        "sha256": "8688e977dfaa73b3573d950a1cf8c88c8e9be86d907bbcd0b23666fdc2b97bfe",
+        "rows_in_part": 4003560,
+        "download_url": null
+      },
+      {
+        "project": "TCGA-PAAD",
+        "part_number": 2,
+        "file_name": "TCGA-PAAD_part002.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part002.tsv.gz",
+        "sha256": "3587482cc1d3f0824daddfb0777f3ad7ce7efea0f3b144ac89e3efd8df67d4af",
+        "rows_in_part": 4003560,
+        "download_url": null
+      },
+      {
+        "project": "TCGA-PAAD",
+        "part_number": 3,
+        "file_name": "TCGA-PAAD_part003.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part003.tsv.gz",
+        "sha256": "67b6b60e5293e01b5ff834c8bcb7653f314692de89a47a6a408bea0bf6b38384",
+        "rows_in_part": 2790360,
+        "download_url": null
       }
     ],
-    "validation": {},
+    "validation": {
+      "passed": false,
+      "row_count_match": false,
+      "no_missing": true,
+      "no_dups": false,
+      "parts_exist": true,
+      "gz_valid": true,
+      "missing_files": [],
+      "dup_cases": [
+        "TCGA-HV-A5A3",
+        "TCGA-HZ-A9TJ",
+        "TCGA-H6-A45N",
+        "TCGA-H6-8124",
+        "TCGA-YB-A89D"
+      ],
+      "expected_rows": 11100780,
+      "rows_written": 10797480
+    },
     "status": "PARTIAL",
-    "resume_file_idx": 75,
-    "timestamp": "2026-04-25T09:30:01.376343"
+    "timestamp": "2026-04-25T09:27:29.329857"
   }
 }
