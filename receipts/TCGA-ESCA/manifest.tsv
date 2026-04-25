@@ -1,4 +1,3 @@
-project	part_number	download_url	file_name	sha256	rows_in_part
-TCGA-ESCA	1	SANDBOX:/outputs/parts/TCGA-ESCA/TCGA-ESCA_part001.tsv.gz	TCGA-ESCA_part001.tsv.gz	f9fc249789c8f9a0bf58c55a239d465df9e461656e41948c5934eea13226d865	4003560
-TCGA-ESCA	2	SANDBOX:/outputs/parts/TCGA-ESCA/TCGA-ESCA_part002.tsv.gz	TCGA-ESCA_part002.tsv.gz	10e09cfa03e956d217a5a0e7ff2d0efe2fa0be15425d737e038b3f7ce4428697	4003560
-TCGA-ESCA	3	SANDBOX:/outputs/parts/TCGA-ESCA/TCGA-ESCA_part003.tsv.gz	TCGA-ESCA_part003.tsv.gz	87b40c106751fef07cb76bcda20f2681ab7259840e4f0c052a70aa98bb4e4b35	2426400
+project	part_number	file_name	sha256	rows_in_part
+TCGA-ESCA	1	TCGA-ESCA_part001.tsv.gz	3156f9760dc81ba1bb6a933642694d90cd7b79089516ac88b6fe51e7cca6139c	4057602
+TCGA-ESCA	2	TCGA-ESCA_part002.tsv.gz	57fdd94586fa5626acc75f3f2857706a2dec86d216faa47f33ae2cd167d6f29f	3214980
