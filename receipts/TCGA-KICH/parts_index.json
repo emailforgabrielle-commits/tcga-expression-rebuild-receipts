@@ -1,0 +1,9 @@
+[
+  {
+    "part_number": 1,
+    "file_name": "TCGA-KICH_part001.tsv.gz",
+    "sha256": "e03e59db3d925c872d95a8558dcd4550dced2010c4b243672fa446bdfb06888a",
+    "rows": 4003560,
+    "size_mb": 16.5
+  }
+]
