@@ -1,0 +1,8 @@
+project: TCGA-CESC
+gdc_file_count: 309
+expected_rows: 18743940
+rows_written: 18440640
+status: PARTIAL
+sha256: b9772944e14e89a9f7825a8b599dbf0c32bf8c323360b4736ca08f813ca3e803
+parts: 5
+timestamp: 2026-04-25T09:14:49.363211
