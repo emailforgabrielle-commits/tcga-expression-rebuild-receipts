@@ -1,22 +1,42 @@
 {
-  "complete": [
-    "TCGA-ACC"
+  "canonical_complete_projects": [
+    "TCGA-ACC",
+    "TCGA-DLBC"
   ],
-  "remaining": [
-    "TCGA-CESC",
-    "TCGA-CHOL",
-    "TCGA-DLBC",
-    "TCGA-ESCA",
-    "TCGA-KICH",
-    "TCGA-MESO",
-    "TCGA-PAAD",
-    "TCGA-PCPG",
-    "TCGA-TGCT",
-    "TCGA-THYM",
-    "TCGA-UCS",
-    "TCGA-UVM"
+  "failed_projects": [
+    {
+      "project": "TCGA-CESC",
+      "rows_written": 18440640,
+      "expected_rows": 18743940,
+      "missing": [],
+      "dups": [
+        "TCGA-UC-A7PG",
+        "TCGA-HM-A6W2",
+        "TCGA-MY-A5BF",
+        "TCGA-FU-A3EO",
+        "TCGA-HM-A3JJ"
+      ]
+    },
+    {
+      "project": "TCGA-CHOL",
+      "rows_written": 2183760,
+      "expected_rows": 2669040,
+      "missing": [],
+      "dups": [
+        "TCGA-W5-AA2Q",
+        "TCGA-W5-AA2X",
+        "TCGA-W5-AA2U",
+        "TCGA-W5-AA34",
+        "TCGA-ZU-A8S4",
+        "TCGA-W5-AA2I",
+        "TCGA-W5-AA31",
+        "TCGA-W5-AA30"
+      ]
+    }
   ],
-  "total_rows": 25416540,
-  "total_parts": 8,
-  "reconciled_utc": "2026-04-25T09:16:16.397030"
+  "blocked_projects": [],
+  "total_rows": 28328220,
+  "total_parts": 9,
+  "safe_for_ingest": false,
+  "generated_utc": "2026-04-25T09:16:00.540397"
 }
