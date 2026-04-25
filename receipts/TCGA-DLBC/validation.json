@@ -10,16 +10,15 @@
     "raw_count"
   ],
   "part_count": 1,
-  "sha256": "527097e71800f6d0f3ec76aa71eb2d5b702d4bc85cf2d4f1eaf9a44fe255b4d4",
+  "sha256": "e8d49244d6744cafc0bdb1dd31934a5c9f0b53cb538bebd1eb1ef6d0d1986393",
   "parts": [
     {
       "project": "TCGA-DLBC",
       "part_number": 1,
       "file_name": "TCGA-DLBC_part001.tsv.gz",
       "local_path": "/outputs/parts/TCGA-DLBC/TCGA-DLBC_part001.tsv.gz",
-      "sha256": "0b4313094e04356e8045436f01f4ed25f7b31dfaf38585067f81647511c7a3db",
-      "rows_in_part": 2911680,
-      "download_url": null
+      "sha256": "57b9d2c9048ba30961ed86dbb92bee3ce6f9ec7dfa415ead6dd7223644999d24",
+      "rows_in_part": 2911680
     }
   ],
   "validation": {
@@ -35,5 +34,5 @@
     "rows_written": 2911680
   },
   "status": "COMPLETE",
-  "timestamp": "2026-04-25T09:16:00.540397"
+  "timestamp": "2026-04-25T09:17:56.703514"
 }
