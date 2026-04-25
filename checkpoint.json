@@ -1,8 +1,8 @@
 {
-  "project": "TCGA-PCPG",
-  "file_idx": 175,
+  "project": "TCGA-TGCT",
+  "file_idx": 25,
   "parts_flushed": 0,
-  "rows_so_far": 2365740,
+  "rows_so_far": 1516500,
   "parts": [],
-  "ts": "2026-04-25T09:37:29.934608"
+  "ts": "2026-04-25T09:38:40.997741"
 }
