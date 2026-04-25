@@ -1,0 +1,8 @@
+project: TCGA-DLBC
+gdc_file_count: 48
+expected_rows: 2911680
+rows_written: 2911680
+status: COMPLETE
+sha256: 527097e71800f6d0f3ec76aa71eb2d5b702d4bc85cf2d4f1eaf9a44fe255b4d4
+parts: 1
+timestamp: 2026-04-25T09:17:25.487203
