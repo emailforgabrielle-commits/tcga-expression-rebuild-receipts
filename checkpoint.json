@@ -1,8 +1,17 @@
 {
   "project": "TCGA-PAAD",
-  "file_idx": 50,
-  "parts_flushed": 0,
-  "rows_so_far": 2972340,
-  "parts": [],
-  "ts": "2026-04-25T09:29:03.911417"
+  "file_idx": 75,
+  "parts_flushed": 1,
+  "rows_so_far": 4488840,
+  "parts": [
+    {
+      "project": "TCGA-PAAD",
+      "part_number": 1,
+      "file_name": "TCGA-PAAD_part001.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part001.tsv.gz",
+      "sha256": "8bc8c9af9a6c829099135d012512da285cc9878d1abd901972973fc77a56f521",
+      "rows_in_part": 4003560
+    }
+  ],
+  "ts": "2026-04-25T09:30:01.376343"
 }
