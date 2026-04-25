@@ -1,0 +1,39 @@
+{
+  "project": "TCGA-DLBC",
+  "gdc_file_count": 48,
+  "expected_rows": 2911680,
+  "rows_written": 2911680,
+  "schema": [
+    "gene_id",
+    "case_submitter_id",
+    "cancer_type_id",
+    "raw_count"
+  ],
+  "part_count": 1,
+  "sha256": "527097e71800f6d0f3ec76aa71eb2d5b702d4bc85cf2d4f1eaf9a44fe255b4d4",
+  "parts": [
+    {
+      "project": "TCGA-DLBC",
+      "part_number": 1,
+      "file_name": "TCGA-DLBC_part001.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-DLBC/TCGA-DLBC_part001.tsv.gz",
+      "sha256": "0b4313094e04356e8045436f01f4ed25f7b31dfaf38585067f81647511c7a3db",
+      "rows_in_part": 2911680,
+      "download_url": null
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "row_count_match": true,
+    "no_missing": true,
+    "no_dups": true,
+    "parts_exist": true,
+    "gz_valid": true,
+    "missing_files": [],
+    "dup_cases": [],
+    "expected_rows": 2911680,
+    "rows_written": 2911680
+  },
+  "status": "COMPLETE",
+  "timestamp": "2026-04-25T09:16:00.540397"
+}
