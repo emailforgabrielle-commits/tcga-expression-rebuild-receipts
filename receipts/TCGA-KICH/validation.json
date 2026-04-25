@@ -10,16 +10,15 @@
     "raw_count"
   ],
   "part_count": 1,
-  "sha256": "7dc237ec0cd0de264e7e35e437539ac6953d91080981313191366c486bbff6e4",
+  "sha256": "39b11a8e19558caa7f690441d6e80089d4247770e9e3d7ea6672510b9538f4f5",
   "parts": [
     {
       "project": "TCGA-KICH",
       "part_number": 1,
       "file_name": "TCGA-KICH_part001.tsv.gz",
       "local_path": "/outputs/parts/TCGA-KICH/TCGA-KICH_part001.tsv.gz",
-      "sha256": "e03e59db3d925c872d95a8558dcd4550dced2010c4b243672fa446bdfb06888a",
-      "rows_in_part": 4003560,
-      "download_url": null
+      "sha256": "7da2520c54fd4652d7708246c2d245915aeffdc9b466a443eb28679e8d6e7d10",
+      "rows_in_part": 4003560
     }
   ],
   "validation": {
@@ -50,16 +49,11 @@
       "TCGA-KL-8329",
       "TCGA-KL-8326",
       "TCGA-KN-8431",
-      "TCGA-KN-8425",
-      "TCGA-KN-8433",
-      "TCGA-KN-8435",
-      "TCGA-KL-8336",
-      "TCGA-KN-8432",
-      "TCGA-KL-8324"
+      "TCGA-KN-8425"
     ],
     "expected_rows": 5520060,
     "rows_written": 4003560
   },
   "status": "PARTIAL",
-  "timestamp": "2026-04-25T09:22:56.945733"
+  "timestamp": "2026-04-25T09:23:16.666801"
 }
