@@ -3,7 +3,12 @@
     "part_number": 1,
     "file_name": "TCGA-CHOL_part001.tsv.gz",
     "sha256": "6bb9a9acaaec8d8c6072331e3407a716e8e3901f8dbc460a8fe466a57621d2cd",
-    "rows": 2183760,
-    "size_mb": 8.9
+    "rows": 2183760
+  },
+  {
+    "part_number": 2,
+    "file_name": "TCGA-CHOL_part002.tsv.gz",
+    "sha256": "16f02192603fbc942c6fce6e9275b294d88ba4495a45349e619d1385d145fecc",
+    "rows": 424620
   }
 ]
