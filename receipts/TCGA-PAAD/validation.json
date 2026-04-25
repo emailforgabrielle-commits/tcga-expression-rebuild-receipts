@@ -2,7 +2,7 @@
   "project": "TCGA-PAAD",
   "gdc_file_count": 183,
   "expected_rows": 11100780,
-  "rows_written": 10797480,
+  "rows_written": 10372860,
   "schema": [
     "gene_id",
     "case_submitter_id",
@@ -10,34 +10,31 @@
     "raw_count"
   ],
   "part_count": 3,
-  "sha256": "55ceb4e525075f6968338acd367c79dce1ad7e3d97bfad86c25f5c1acbdc16d1",
+  "sha256": "09df1ef349835a5753d80633fb0dfc107c6d16051dc73a82f5482d5c77fe8970",
   "parts": [
     {
       "project": "TCGA-PAAD",
       "part_number": 1,
       "file_name": "TCGA-PAAD_part001.tsv.gz",
       "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part001.tsv.gz",
-      "sha256": "8688e977dfaa73b3573d950a1cf8c88c8e9be86d907bbcd0b23666fdc2b97bfe",
-      "rows_in_part": 4003560,
-      "download_url": null
+      "sha256": "8bc8c9af9a6c829099135d012512da285cc9878d1abd901972973fc77a56f521",
+      "rows_in_part": 4003560
     },
     {
       "project": "TCGA-PAAD",
       "part_number": 2,
       "file_name": "TCGA-PAAD_part002.tsv.gz",
       "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part002.tsv.gz",
-      "sha256": "3587482cc1d3f0824daddfb0777f3ad7ce7efea0f3b144ac89e3efd8df67d4af",
-      "rows_in_part": 4003560,
-      "download_url": null
+      "sha256": "02822ac5d4c2afc17c051822548a011280ef20c6412e5edf6706dcd8ccf1938f",
+      "rows_in_part": 4003560
     },
     {
       "project": "TCGA-PAAD",
       "part_number": 3,
       "file_name": "TCGA-PAAD_part003.tsv.gz",
       "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part003.tsv.gz",
-      "sha256": "67b6b60e5293e01b5ff834c8bcb7653f314692de89a47a6a408bea0bf6b38384",
-      "rows_in_part": 2790360,
-      "download_url": null
+      "sha256": "4f62c876e05ec770c0d37076d60e369766a7b5ac6ab89ab00b95e241c2de42ba",
+      "rows_in_part": 2365740
     }
   ],
   "validation": {
@@ -49,15 +46,13 @@
     "gz_valid": true,
     "missing_files": [],
     "dup_cases": [
-      "TCGA-HV-A5A3",
       "TCGA-HZ-A9TJ",
-      "TCGA-H6-A45N",
       "TCGA-H6-8124",
       "TCGA-YB-A89D"
     ],
     "expected_rows": 11100780,
-    "rows_written": 10797480
+    "rows_written": 10372860
   },
   "status": "PARTIAL",
-  "timestamp": "2026-04-25T09:27:29.329857"
+  "timestamp": "2026-04-25T09:33:29.127767"
 }
