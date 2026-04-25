@@ -1,0 +1,9 @@
+[
+  {
+    "part_number": 1,
+    "file_name": "TCGA-CHOL_part001.tsv.gz",
+    "sha256": "6bb9a9acaaec8d8c6072331e3407a716e8e3901f8dbc460a8fe466a57621d2cd",
+    "rows": 2183760,
+    "size_mb": 8.9
+  }
+]
