@@ -169,5 +169,43 @@
     },
     "status": "PARTIAL",
     "timestamp": "2026-04-25T09:17:37.469487"
+  },
+  "TCGA-DLBC": {
+    "project": "TCGA-DLBC",
+    "gdc_file_count": 48,
+    "expected_rows": 2911680,
+    "rows_written": 2911680,
+    "schema": [
+      "gene_id",
+      "case_submitter_id",
+      "cancer_type_id",
+      "raw_count"
+    ],
+    "part_count": 1,
+    "sha256": "e8d49244d6744cafc0bdb1dd31934a5c9f0b53cb538bebd1eb1ef6d0d1986393",
+    "parts": [
+      {
+        "project": "TCGA-DLBC",
+        "part_number": 1,
+        "file_name": "TCGA-DLBC_part001.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-DLBC/TCGA-DLBC_part001.tsv.gz",
+        "sha256": "57b9d2c9048ba30961ed86dbb92bee3ce6f9ec7dfa415ead6dd7223644999d24",
+        "rows_in_part": 2911680
+      }
+    ],
+    "validation": {
+      "passed": true,
+      "row_count_match": true,
+      "no_missing": true,
+      "no_dups": true,
+      "parts_exist": true,
+      "gz_valid": true,
+      "missing_files": [],
+      "dup_cases": [],
+      "expected_rows": 2911680,
+      "rows_written": 2911680
+    },
+    "status": "COMPLETE",
+    "timestamp": "2026-04-25T09:17:56.703514"
   }
 }
