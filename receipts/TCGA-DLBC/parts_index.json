@@ -1,0 +1,9 @@
+[
+  {
+    "part_number": 1,
+    "file_name": "TCGA-DLBC_part001.tsv.gz",
+    "sha256": "0b4313094e04356e8045436f01f4ed25f7b31dfaf38585067f81647511c7a3db",
+    "rows": 2911680,
+    "size_mb": 11.86
+  }
+]
