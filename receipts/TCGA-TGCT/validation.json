@@ -10,34 +10,31 @@
     "raw_count"
   ],
   "part_count": 3,
-  "sha256": "ad52ab34bdd3b63e8ac3c2d8484808c17d63e6fdffcb47aed1a2d3256abe07ee",
+  "sha256": "cae473aa0d8e3dc15d348889b8f82d5ac3cdb7775c65e1fbf1032ff4f396d841",
   "parts": [
     {
       "project": "TCGA-TGCT",
       "part_number": 1,
       "file_name": "TCGA-TGCT_part001.tsv.gz",
       "local_path": "/outputs/parts/TCGA-TGCT/TCGA-TGCT_part001.tsv.gz",
-      "sha256": "a5da7455e5a959cd4abd655ef92f503d8d43e0d192684c649e5a82a8a6ead6af",
-      "rows_in_part": 4003560,
-      "download_url": null
+      "sha256": "ef28894ac74476accaf2c381a8e5bb0d7d684b9b1d06a770c7b523aba398ce05",
+      "rows_in_part": 4003560
     },
     {
       "project": "TCGA-TGCT",
       "part_number": 2,
       "file_name": "TCGA-TGCT_part002.tsv.gz",
       "local_path": "/outputs/parts/TCGA-TGCT/TCGA-TGCT_part002.tsv.gz",
-      "sha256": "e52e098b2e635f0c8750f679809fcd9595c33e8a46e477600626e02e8bb5bc32",
-      "rows_in_part": 4003560,
-      "download_url": null
+      "sha256": "300e52e3445495c7193978fae86372843733e86a47d4722dd309a27175081ed7",
+      "rows_in_part": 4003560
     },
     {
       "project": "TCGA-TGCT",
       "part_number": 3,
       "file_name": "TCGA-TGCT_part003.tsv.gz",
       "local_path": "/outputs/parts/TCGA-TGCT/TCGA-TGCT_part003.tsv.gz",
-      "sha256": "68b4727c11f54076cd90254fff26f2d9c502d2dac58a6f9ab93fa3c09ce0a4fa",
-      "rows_in_part": 1091880,
-      "download_url": null
+      "sha256": "8cabe2ca0d53bf833cfec241b0ee889b78b0aac1a349891ea659ee61b154a364",
+      "rows_in_part": 1091880
     }
   ],
   "validation": {
@@ -60,5 +57,5 @@
     "rows_written": 9099000
   },
   "status": "PARTIAL",
-  "timestamp": "2026-04-25T09:37:52.145557"
+  "timestamp": "2026-04-25T09:38:04.726017"
 }
