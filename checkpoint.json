@@ -1,8 +1,8 @@
 {
   "project": "TCGA-PAAD",
-  "file_idx": 25,
+  "file_idx": 50,
   "parts_flushed": 0,
-  "rows_so_far": 1516500,
+  "rows_so_far": 2972340,
   "parts": [],
-  "ts": "2026-04-25T09:28:29.491609"
+  "ts": "2026-04-25T09:29:03.911417"
 }
