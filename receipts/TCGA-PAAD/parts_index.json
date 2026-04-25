@@ -1,0 +1,23 @@
+[
+  {
+    "part_number": 1,
+    "file_name": "TCGA-PAAD_part001.tsv.gz",
+    "sha256": "8688e977dfaa73b3573d950a1cf8c88c8e9be86d907bbcd0b23666fdc2b97bfe",
+    "rows": 4003560,
+    "size_mb": 16.57
+  },
+  {
+    "part_number": 2,
+    "file_name": "TCGA-PAAD_part002.tsv.gz",
+    "sha256": "3587482cc1d3f0824daddfb0777f3ad7ce7efea0f3b144ac89e3efd8df67d4af",
+    "rows": 4003560,
+    "size_mb": 16.6
+  },
+  {
+    "part_number": 3,
+    "file_name": "TCGA-PAAD_part003.tsv.gz",
+    "sha256": "67b6b60e5293e01b5ff834c8bcb7653f314692de89a47a6a408bea0bf6b38384",
+    "rows": 2790360,
+    "size_mb": 11.52
+  }
+]
