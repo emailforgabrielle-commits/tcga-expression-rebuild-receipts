@@ -10,25 +10,23 @@
     "raw_count"
   ],
   "part_count": 2,
-  "sha256": "1a72f138c99920f814232f6cefbdb1795e9a54ddce9e7c6f18ae9d57967dbc32",
+  "sha256": "d4cefc1acaa08781d4ecb073b112818724a5cfd1324a56225d5c8a265f082ed8",
   "parts": [
     {
       "project": "TCGA-MESO",
       "part_number": 1,
       "file_name": "TCGA-MESO_part001.tsv.gz",
       "local_path": "/outputs/parts/TCGA-MESO/TCGA-MESO_part001.tsv.gz",
-      "sha256": "98e1bc5c1c480e968da9be6b1f177c42127739cdc0873c6e75b5de8975974d5a",
-      "rows_in_part": 4003560,
-      "download_url": null
+      "sha256": "d0835628d1a71bab6b38bd4d81292366a9f0061535a34a32a6163f61e0729d5a",
+      "rows_in_part": 4003560
     },
     {
       "project": "TCGA-MESO",
       "part_number": 2,
       "file_name": "TCGA-MESO_part002.tsv.gz",
       "local_path": "/outputs/parts/TCGA-MESO/TCGA-MESO_part002.tsv.gz",
-      "sha256": "02a40c3b7aef274ac90716c50d08003ed717ebab5c6ea7ccc124e3fcc5951179",
-      "rows_in_part": 1273860,
-      "download_url": null
+      "sha256": "d96543b2429e120bd6de20231f905f493ec54e810bddd173cc94e7fbdf8e9a7d",
+      "rows_in_part": 1273860
     }
   ],
   "validation": {
@@ -44,5 +42,5 @@
     "rows_written": 5277420
   },
   "status": "COMPLETE",
-  "timestamp": "2026-04-25T09:25:01.485751"
+  "timestamp": "2026-04-25T09:25:23.742722"
 }
