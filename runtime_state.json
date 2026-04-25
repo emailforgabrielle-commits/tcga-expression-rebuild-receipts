@@ -1,11 +1,11 @@
 {
   "pid": 238,
-  "current_project": null,
+  "current_project": "TCGA-CESC",
   "complete": [
-    "TCGA-ACC"
+    "TCGA-ACC",
+    "TCGA-CESC"
   ],
   "remaining": [
-    "TCGA-CESC",
     "TCGA-CHOL",
     "TCGA-DLBC",
     "TCGA-ESCA",
@@ -19,6 +19,5 @@
     "TCGA-UVM"
   ],
   "checkpoint_path": "/outputs/logs/checkpoint.json",
-  "utc": "2026-04-25T09:17:22.127416",
-  "event": "start"
+  "utc": "2026-04-25T09:17:37.129447"
 }
