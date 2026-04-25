@@ -1,0 +1,14 @@
+[
+  {
+    "part_number": 1,
+    "file_name": "TCGA-ACC_part001.tsv.gz",
+    "sha256": "a239d846ab6a7c8feb6cecd49ef6a39d5c65b41a8304813b985d66766722dcbd",
+    "rows": 4003560
+  },
+  {
+    "part_number": 2,
+    "file_name": "TCGA-ACC_part002.tsv.gz",
+    "sha256": "16b41db4fba65ad96e0c603ef7e955be9884447015dc9602b8329fb9720f39bb",
+    "rows": 788580
+  }
+]
