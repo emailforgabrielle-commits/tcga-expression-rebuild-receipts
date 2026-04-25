@@ -1,12 +1,20 @@
 {
   "complete": [
     "TCGA-ACC",
-    "TCGA-CESC"
+    "TCGA-CESC",
+    "TCGA-DLBC"
   ],
-  "failed": [],
+  "failed": [
+    {
+      "project": "TCGA-CHOL",
+      "rows_written": 2608380,
+      "expected_rows": 2669040,
+      "missing": []
+    }
+  ],
   "blocked": [],
-  "total_rows": 26144460,
-  "total_parts": 10,
+  "total_rows": 29056140,
+  "total_parts": 11,
   "safe_for_ingest": false,
-  "generated_utc": "2026-04-25T09:17:54.866983"
+  "generated_utc": "2026-04-25T09:19:26.026351"
 }
