@@ -10,5 +10,17 @@
     "file_name": "TCGA-ESCA_part002.tsv.gz",
     "sha256": "57fdd94586fa5626acc75f3f2857706a2dec86d216faa47f33ae2cd167d6f29f",
     "rows": 3214980
+  },
+  {
+    "part_number": 3,
+    "file_name": "TCGA-ESCA_part003.tsv.gz",
+    "sha256": "87b40c106751fef07cb76bcda20f2681ab7259840e4f0c052a70aa98bb4e4b35",
+    "rows": 2426400
+  },
+  {
+    "part_number": 4,
+    "file_name": "TCGA-ESCA_part004.tsv.gz",
+    "sha256": "d9bb1978791afac272ebed46174b89540bcf3e2fd11a2f1928ff2714c26a23ad",
+    "rows": 2365740
   }
 ]
