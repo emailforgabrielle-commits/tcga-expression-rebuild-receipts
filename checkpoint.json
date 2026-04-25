@@ -1,25 +1,8 @@
 {
-  "project": "TCGA-PAAD",
-  "file_idx": 175,
-  "parts_flushed": 2,
-  "rows_so_far": 9887580,
-  "parts": [
-    {
-      "project": "TCGA-PAAD",
-      "part_number": 1,
-      "file_name": "TCGA-PAAD_part001.tsv.gz",
-      "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part001.tsv.gz",
-      "sha256": "8bc8c9af9a6c829099135d012512da285cc9878d1abd901972973fc77a56f521",
-      "rows_in_part": 4003560
-    },
-    {
-      "project": "TCGA-PAAD",
-      "part_number": 2,
-      "file_name": "TCGA-PAAD_part002.tsv.gz",
-      "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part002.tsv.gz",
-      "sha256": "02822ac5d4c2afc17c051822548a011280ef20c6412e5edf6706dcd8ccf1938f",
-      "rows_in_part": 4003560
-    }
-  ],
-  "ts": "2026-04-25T09:36:05.864947"
+  "project": "TCGA-PCPG",
+  "file_idx": 150,
+  "parts_flushed": 0,
+  "rows_so_far": 909900,
+  "parts": [],
+  "ts": "2026-04-25T09:36:54.732651"
 }
