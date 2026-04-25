@@ -4,5 +4,11 @@
     "file_name": "TCGA-KICH_part001.tsv.gz",
     "sha256": "7da2520c54fd4652d7708246c2d245915aeffdc9b466a443eb28679e8d6e7d10",
     "rows": 4003560
+  },
+  {
+    "part_number": 2,
+    "file_name": "TCGA-KICH_part002.tsv.gz",
+    "sha256": "d0f78bfae9fc22664a7fa0069d49043e271fad1b3eb476b79b6a679438f6b12a",
+    "rows": 1334520
   }
 ]
