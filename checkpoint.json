@@ -1,8 +1,8 @@
 {
   "project": "TCGA-ESCA",
-  "file_idx": 75,
+  "file_idx": 100,
   "parts_flushed": 0,
-  "rows_so_far": 485280,
+  "rows_so_far": 1813182,
   "parts": [],
-  "ts": "2026-04-25T09:19:39.152011"
+  "ts": "2026-04-25T09:20:21.412904"
 }
