@@ -1,0 +1,23 @@
+[
+  {
+    "part_number": 1,
+    "file_name": "TCGA-TGCT_part001.tsv.gz",
+    "sha256": "a5da7455e5a959cd4abd655ef92f503d8d43e0d192684c649e5a82a8a6ead6af",
+    "rows": 4003560,
+    "size_mb": 16.66
+  },
+  {
+    "part_number": 2,
+    "file_name": "TCGA-TGCT_part002.tsv.gz",
+    "sha256": "e52e098b2e635f0c8750f679809fcd9595c33e8a46e477600626e02e8bb5bc32",
+    "rows": 4003560,
+    "size_mb": 16.67
+  },
+  {
+    "part_number": 3,
+    "file_name": "TCGA-TGCT_part003.tsv.gz",
+    "sha256": "68b4727c11f54076cd90254fff26f2d9c502d2dac58a6f9ab93fa3c09ce0a4fa",
+    "rows": 1091880,
+    "size_mb": 3.43
+  }
+]
