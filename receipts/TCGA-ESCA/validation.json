@@ -2,61 +2,48 @@
   "project": "TCGA-ESCA",
   "gdc_file_count": 198,
   "expected_rows": 12010680,
-  "rows_written": 12064722,
-  "schema": [
-    "gene_id",
-    "case_submitter_id",
-    "cancer_type_id",
-    "raw_count"
-  ],
-  "part_count": 4,
-  "sha256": "8783d1c9fdb5342daa0b4bcc129c3d8cc34b39985336c78169e0675f3bfa262d",
+  "rows_written": 11161440,
+  "part_count": 3,
   "parts": [
     {
       "project": "TCGA-ESCA",
       "part_number": 1,
       "file_name": "TCGA-ESCA_part001.tsv.gz",
       "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part001.tsv.gz",
-      "sha256": "3156f9760dc81ba1bb6a933642694d90cd7b79089516ac88b6fe51e7cca6139c",
-      "rows_in_part": 4057602
+      "sha256": "3e0381b9fac2c916d6ffc553f0336ffc8c8b529602b12d6fda05f422473a1b73",
+      "rows_in_part": 4003560
     },
     {
       "project": "TCGA-ESCA",
       "part_number": 2,
       "file_name": "TCGA-ESCA_part002.tsv.gz",
       "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part002.tsv.gz",
-      "sha256": "57fdd94586fa5626acc75f3f2857706a2dec86d216faa47f33ae2cd167d6f29f",
-      "rows_in_part": 3214980
+      "sha256": "16dc7ac99cec21a6bd913a5cc544f9068fa36266b467da03fba6e80242e96916",
+      "rows_in_part": 4003560
     },
     {
       "project": "TCGA-ESCA",
       "part_number": 3,
       "file_name": "TCGA-ESCA_part003.tsv.gz",
       "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part003.tsv.gz",
-      "sha256": "87b40c106751fef07cb76bcda20f2681ab7259840e4f0c052a70aa98bb4e4b35",
-      "rows_in_part": 2426400
-    },
-    {
-      "project": "TCGA-ESCA",
-      "part_number": 4,
-      "file_name": "TCGA-ESCA_part004.tsv.gz",
-      "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part004.tsv.gz",
-      "sha256": "d9bb1978791afac272ebed46174b89540bcf3e2fd11a2f1928ff2714c26a23ad",
-      "rows_in_part": 2365740
+      "sha256": "87b68d7bcee589af72c41eebbd8679b13e8f894072f86959687151f918f883cf",
+      "rows_in_part": 3154320
     }
   ],
   "validation": {
     "passed": false,
     "row_count_match": false,
-    "no_missing": true,
-    "no_dups": true,
+    "no_missing_files": true,
     "parts_exist": true,
     "gz_valid": true,
-    "missing_files": [],
+    "schema_ok": true,
+    "no_dups": true,
     "dup_cases": [],
     "expected_rows": 12010680,
-    "rows_written": 12064722
+    "rows_written": 11161440,
+    "missing_files_count": 0
   },
-  "status": "PARTIAL",
-  "timestamp": "2026-04-25T09:31:35.474860"
+  "status": "FAILED",
+  "fail_reason": "ROW MISMATCH: wrote 11,161,440 expected 12,010,680 (delta -849,240)",
+  "timestamp": "2026-04-25T09:49:23.680069"
 }
