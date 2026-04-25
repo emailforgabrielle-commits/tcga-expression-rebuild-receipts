@@ -43,5 +43,86 @@
     },
     "status": "COMPLETE",
     "timestamp": "2026-04-25T08:36:22.928642"
+  },
+  "TCGA-CESC": {
+    "project": "TCGA-CESC",
+    "gdc_file_count": 309,
+    "expected_rows": 18743940,
+    "rows_written": 18440640,
+    "schema": [
+      "gene_id",
+      "case_submitter_id",
+      "cancer_type_id",
+      "raw_count"
+    ],
+    "part_count": 5,
+    "sha256": "b9772944e14e89a9f7825a8b599dbf0c32bf8c323360b4736ca08f813ca3e803",
+    "parts": [
+      {
+        "project": "TCGA-CESC",
+        "part_number": 1,
+        "file_name": "TCGA-CESC_part001.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part001.tsv.gz",
+        "sha256": "93cf416cd91ca66a1bcefd27adf01bc4db14c2ca0cccb03232e99fbad23409a3",
+        "rows_in_part": 4003560,
+        "download_url": null
+      },
+      {
+        "project": "TCGA-CESC",
+        "part_number": 2,
+        "file_name": "TCGA-CESC_part002.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part002.tsv.gz",
+        "sha256": "853bf0340edf554ec4b8519a0a5e8504c6e155918bd7c38087a9176b51d83648",
+        "rows_in_part": 4003560,
+        "download_url": null
+      },
+      {
+        "project": "TCGA-CESC",
+        "part_number": 3,
+        "file_name": "TCGA-CESC_part003.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part003.tsv.gz",
+        "sha256": "570e61aa8732876cea751ca65e5b84bec1f62330224fcaa08ef1fafd4ef6f8bd",
+        "rows_in_part": 4003560,
+        "download_url": null
+      },
+      {
+        "project": "TCGA-CESC",
+        "part_number": 4,
+        "file_name": "TCGA-CESC_part004.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part004.tsv.gz",
+        "sha256": "e67dce3769e67b808a1731abf1033d8eaf28c534618a54984f245d23881d324a",
+        "rows_in_part": 4003560,
+        "download_url": null
+      },
+      {
+        "project": "TCGA-CESC",
+        "part_number": 5,
+        "file_name": "TCGA-CESC_part005.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-CESC/TCGA-CESC_part005.tsv.gz",
+        "sha256": "07a78c44841f227381b4aefc1d40f875e11ba0511fe4bb03789300ceaa848051",
+        "rows_in_part": 2426400,
+        "download_url": null
+      }
+    ],
+    "validation": {
+      "passed": false,
+      "row_count_match": false,
+      "no_missing": true,
+      "no_dups": false,
+      "parts_exist": true,
+      "gz_valid": true,
+      "missing_files": [],
+      "dup_cases": [
+        "TCGA-UC-A7PG",
+        "TCGA-HM-A6W2",
+        "TCGA-MY-A5BF",
+        "TCGA-FU-A3EO",
+        "TCGA-HM-A3JJ"
+      ],
+      "expected_rows": 18743940,
+      "rows_written": 18440640
+    },
+    "status": "PARTIAL",
+    "timestamp": "2026-04-25T09:06:15.908194"
   }
 }
