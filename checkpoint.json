@@ -1,8 +1,17 @@
 {
   "project": "TCGA-TGCT",
-  "file_idx": 50,
-  "parts_flushed": 0,
-  "rows_so_far": 2911680,
-  "parts": [],
-  "ts": "2026-04-25T09:39:12.403163"
+  "file_idx": 75,
+  "parts_flushed": 1,
+  "rows_so_far": 4367520,
+  "parts": [
+    {
+      "project": "TCGA-TGCT",
+      "part_number": 1,
+      "file_name": "TCGA-TGCT_part001.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-TGCT/TCGA-TGCT_part001.tsv.gz",
+      "sha256": "ef28894ac74476accaf2c381a8e5bb0d7d684b9b1d06a770c7b523aba398ce05",
+      "rows_in_part": 4003560
+    }
+  ],
+  "ts": "2026-04-25T09:40:06.590435"
 }
