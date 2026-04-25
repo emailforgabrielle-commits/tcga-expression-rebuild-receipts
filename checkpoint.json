@@ -1,8 +1,8 @@
 {
-  "project": "TCGA-KICH",
-  "file_idx": 50,
+  "project": "TCGA-MESO",
+  "file_idx": 25,
   "parts_flushed": 0,
-  "rows_so_far": 2547720,
+  "rows_so_far": 1516500,
   "parts": [],
-  "ts": "2026-04-25T09:24:24.319105"
+  "ts": "2026-04-25T09:26:00.229165"
 }
