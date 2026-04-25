@@ -1,23 +1,25 @@
 {
-  "pid": 58,
-  "current_project": "TCGA-ESCA",
+  "pid": 63,
+  "current_project": null,
   "complete": [
     "TCGA-ACC",
-    "TCGA-CESC",
-    "TCGA-CHOL",
     "TCGA-DLBC",
-    "TCGA-MESO"
+    "TCGA-ESCA",
+    "TCGA-MESO",
+    "TCGA-TGCT"
   ],
   "remaining": [
-    "TCGA-ESCA",
+    "TCGA-CESC",
+    "TCGA-CHOL",
     "TCGA-KICH",
     "TCGA-PAAD",
     "TCGA-PCPG",
-    "TCGA-TGCT",
     "TCGA-THYM",
     "TCGA-UCS",
     "TCGA-UVM"
   ],
   "checkpoint_path": "/outputs/logs/checkpoint.json",
-  "utc": "2026-04-25T09:49:38.150106"
+  "utc": "2026-04-25T10:31:40.674132",
+  "event": "start",
+  "mode": "strict_sequential"
 }
