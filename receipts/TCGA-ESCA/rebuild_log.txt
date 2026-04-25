@@ -1,0 +1,8 @@
+project: TCGA-ESCA
+gdc_file_count: 198
+expected_rows: 12010680
+rows_written: 10433520
+status: PARTIAL
+sha256: 825ae92b14d0b2be8f77c3786503bdd623aaddebc1d36aabca96eb874cc0c1f2
+parts: 3
+timestamp: 2026-04-25T09:22:49.813575
