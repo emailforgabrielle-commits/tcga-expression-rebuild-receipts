@@ -1,0 +1,4 @@
+project	part_number	download_url	file_name	sha256	rows_in_part
+TCGA-PCPG	1	SANDBOX:/outputs/parts/TCGA-PCPG/TCGA-PCPG_part001.tsv.gz	TCGA-PCPG_part001.tsv.gz	7a9c5abcb5d8919bceee529d3e11ec6dfb4a8da758d324803200c91889c42548	4003560
+TCGA-PCPG	2	SANDBOX:/outputs/parts/TCGA-PCPG/TCGA-PCPG_part002.tsv.gz	TCGA-PCPG_part002.tsv.gz	a0fff27978bd3a48ee59b6a8b716af9c5ca3a0e31bf14a9a75b8d70d831a8ff3	4003560
+TCGA-PCPG	3	SANDBOX:/outputs/parts/TCGA-PCPG/TCGA-PCPG_part003.tsv.gz	TCGA-PCPG_part003.tsv.gz	f23ab8e5795a210c9448d521864d019a8222401ae4de24db2d61962ec994d564	2851020
