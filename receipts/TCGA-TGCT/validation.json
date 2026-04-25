@@ -1,0 +1,64 @@
+{
+  "project": "TCGA-TGCT",
+  "gdc_file_count": 156,
+  "expected_rows": 9462960,
+  "rows_written": 9099000,
+  "schema": [
+    "gene_id",
+    "case_submitter_id",
+    "cancer_type_id",
+    "raw_count"
+  ],
+  "part_count": 3,
+  "sha256": "ad52ab34bdd3b63e8ac3c2d8484808c17d63e6fdffcb47aed1a2d3256abe07ee",
+  "parts": [
+    {
+      "project": "TCGA-TGCT",
+      "part_number": 1,
+      "file_name": "TCGA-TGCT_part001.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-TGCT/TCGA-TGCT_part001.tsv.gz",
+      "sha256": "a5da7455e5a959cd4abd655ef92f503d8d43e0d192684c649e5a82a8a6ead6af",
+      "rows_in_part": 4003560,
+      "download_url": null
+    },
+    {
+      "project": "TCGA-TGCT",
+      "part_number": 2,
+      "file_name": "TCGA-TGCT_part002.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-TGCT/TCGA-TGCT_part002.tsv.gz",
+      "sha256": "e52e098b2e635f0c8750f679809fcd9595c33e8a46e477600626e02e8bb5bc32",
+      "rows_in_part": 4003560,
+      "download_url": null
+    },
+    {
+      "project": "TCGA-TGCT",
+      "part_number": 3,
+      "file_name": "TCGA-TGCT_part003.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-TGCT/TCGA-TGCT_part003.tsv.gz",
+      "sha256": "68b4727c11f54076cd90254fff26f2d9c502d2dac58a6f9ab93fa3c09ce0a4fa",
+      "rows_in_part": 1091880,
+      "download_url": null
+    }
+  ],
+  "validation": {
+    "passed": false,
+    "row_count_match": false,
+    "no_missing": true,
+    "no_dups": false,
+    "parts_exist": true,
+    "gz_valid": true,
+    "missing_files": [],
+    "dup_cases": [
+      "TCGA-2G-AAGY",
+      "TCGA-2G-AAFG",
+      "TCGA-2G-AAGI",
+      "TCGA-2G-AAKO",
+      "TCGA-2G-AAKG",
+      "TCGA-2G-AAHP"
+    ],
+    "expected_rows": 9462960,
+    "rows_written": 9099000
+  },
+  "status": "PARTIAL",
+  "timestamp": "2026-04-25T09:37:52.145557"
+}
