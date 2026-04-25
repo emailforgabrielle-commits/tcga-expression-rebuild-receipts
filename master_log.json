@@ -376,9 +376,15 @@
     "project": "TCGA-PAAD",
     "gdc_file_count": 183,
     "expected_rows": 11100780,
-    "rows_written": 4488840,
-    "part_count": 1,
-    "sha256": null,
+    "rows_written": 10372860,
+    "schema": [
+      "gene_id",
+      "case_submitter_id",
+      "cancer_type_id",
+      "raw_count"
+    ],
+    "part_count": 3,
+    "sha256": "09df1ef349835a5753d80633fb0dfc107c6d16051dc73a82f5482d5c77fe8970",
     "parts": [
       {
         "project": "TCGA-PAAD",
@@ -387,11 +393,41 @@
         "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part001.tsv.gz",
         "sha256": "8bc8c9af9a6c829099135d012512da285cc9878d1abd901972973fc77a56f521",
         "rows_in_part": 4003560
+      },
+      {
+        "project": "TCGA-PAAD",
+        "part_number": 2,
+        "file_name": "TCGA-PAAD_part002.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part002.tsv.gz",
+        "sha256": "02822ac5d4c2afc17c051822548a011280ef20c6412e5edf6706dcd8ccf1938f",
+        "rows_in_part": 4003560
+      },
+      {
+        "project": "TCGA-PAAD",
+        "part_number": 3,
+        "file_name": "TCGA-PAAD_part003.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-PAAD/TCGA-PAAD_part003.tsv.gz",
+        "sha256": "4f62c876e05ec770c0d37076d60e369766a7b5ac6ab89ab00b95e241c2de42ba",
+        "rows_in_part": 2365740
       }
     ],
-    "validation": {},
+    "validation": {
+      "passed": false,
+      "row_count_match": false,
+      "no_missing": true,
+      "no_dups": false,
+      "parts_exist": true,
+      "gz_valid": true,
+      "missing_files": [],
+      "dup_cases": [
+        "TCGA-HZ-A9TJ",
+        "TCGA-H6-8124",
+        "TCGA-YB-A89D"
+      ],
+      "expected_rows": 11100780,
+      "rows_written": 10372860
+    },
     "status": "PARTIAL",
-    "resume_file_idx": 75,
-    "timestamp": "2026-04-25T09:30:01.376343"
+    "timestamp": "2026-04-25T09:33:29.127767"
   }
 }
