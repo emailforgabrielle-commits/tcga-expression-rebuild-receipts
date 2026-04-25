@@ -2,15 +2,15 @@
   "project": "TCGA-KICH",
   "gdc_file_count": 91,
   "expected_rows": 5520060,
-  "rows_written": 4003560,
+  "rows_written": 5338080,
   "schema": [
     "gene_id",
     "case_submitter_id",
     "cancer_type_id",
     "raw_count"
   ],
-  "part_count": 1,
-  "sha256": "39b11a8e19558caa7f690441d6e80089d4247770e9e3d7ea6672510b9538f4f5",
+  "part_count": 2,
+  "sha256": "d951e8ccaa533996631049810fec4dfecf42bea669ede0b85aa20bde4974cc97",
   "parts": [
     {
       "project": "TCGA-KICH",
@@ -19,6 +19,14 @@
       "local_path": "/outputs/parts/TCGA-KICH/TCGA-KICH_part001.tsv.gz",
       "sha256": "7da2520c54fd4652d7708246c2d245915aeffdc9b466a443eb28679e8d6e7d10",
       "rows_in_part": 4003560
+    },
+    {
+      "project": "TCGA-KICH",
+      "part_number": 2,
+      "file_name": "TCGA-KICH_part002.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-KICH/TCGA-KICH_part002.tsv.gz",
+      "sha256": "d0f78bfae9fc22664a7fa0069d49043e271fad1b3eb476b79b6a679438f6b12a",
+      "rows_in_part": 1334520
     }
   ],
   "validation": {
@@ -30,30 +38,13 @@
     "gz_valid": true,
     "missing_files": [],
     "dup_cases": [
-      "TCGA-KL-8339",
-      "TCGA-KO-8415",
-      "TCGA-KN-8419",
-      "TCGA-KN-8434",
-      "TCGA-KN-8436",
-      "TCGA-KN-8437",
-      "TCGA-KN-8430",
-      "TCGA-KN-8429",
-      "TCGA-KN-8423",
-      "TCGA-KN-8428",
-      "TCGA-KN-8422",
-      "TCGA-KL-8332",
-      "TCGA-KO-8403",
-      "TCGA-KN-8424",
-      "TCGA-KN-8426",
-      "TCGA-KN-8427",
-      "TCGA-KL-8329",
       "TCGA-KL-8326",
-      "TCGA-KN-8431",
-      "TCGA-KN-8425"
+      "TCGA-KN-8433",
+      "TCGA-KN-8432"
     ],
     "expected_rows": 5520060,
-    "rows_written": 4003560
+    "rows_written": 5338080
   },
   "status": "PARTIAL",
-  "timestamp": "2026-04-25T09:23:16.666801"
+  "timestamp": "2026-04-25T09:32:49.681237"
 }
