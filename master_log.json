@@ -218,15 +218,15 @@
     "project": "TCGA-ESCA",
     "gdc_file_count": 198,
     "expected_rows": 12010680,
-    "rows_written": 9698982,
+    "rows_written": 12064722,
     "schema": [
       "gene_id",
       "case_submitter_id",
       "cancer_type_id",
       "raw_count"
     ],
-    "part_count": 3,
-    "sha256": "f3993c01dca0f9a42dcbf4397914fd3a5d156ff8cda680a10e26fc5039f69e9c",
+    "part_count": 4,
+    "sha256": "8783d1c9fdb5342daa0b4bcc129c3d8cc34b39985336c78169e0675f3bfa262d",
     "parts": [
       {
         "project": "TCGA-ESCA",
@@ -251,35 +251,30 @@
         "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part003.tsv.gz",
         "sha256": "87b40c106751fef07cb76bcda20f2681ab7259840e4f0c052a70aa98bb4e4b35",
         "rows_in_part": 2426400
+      },
+      {
+        "project": "TCGA-ESCA",
+        "part_number": 4,
+        "file_name": "TCGA-ESCA_part004.tsv.gz",
+        "local_path": "/outputs/parts/TCGA-ESCA/TCGA-ESCA_part004.tsv.gz",
+        "sha256": "d9bb1978791afac272ebed46174b89540bcf3e2fd11a2f1928ff2714c26a23ad",
+        "rows_in_part": 2365740
       }
     ],
     "validation": {
       "passed": false,
       "row_count_match": false,
-      "no_missing": false,
-      "no_dups": false,
+      "no_missing": true,
+      "no_dups": true,
       "parts_exist": true,
       "gz_valid": true,
-      "missing_files": [
-        "5efffedb-3feb-4a77-986f-9ff71401feea",
-        "5693ee07-e666-4f90-b254-d5a3c6eeaa92"
-      ],
-      "dup_cases": [
-        "TCGA-V5-A7RC",
-        "TCGA-L5-A4OG",
-        "TCGA-L5-A4OO",
-        "TCGA-L5-A4OQ",
-        "TCGA-IC-A6RE",
-        "TCGA-IG-A3I8",
-        "TCGA-L5-A43C",
-        "TCGA-L5-A4OJ"
-      ],
+      "missing_files": [],
+      "dup_cases": [],
       "expected_rows": 12010680,
-      "rows_written": 7272582
+      "rows_written": 12064722
     },
     "status": "PARTIAL",
-    "timestamp": "2026-04-25T09:19:27.718250",
-    "resume_file_idx": 159
+    "timestamp": "2026-04-25T09:31:35.474860"
   },
   "TCGA-KICH": {
     "project": "TCGA-KICH",
