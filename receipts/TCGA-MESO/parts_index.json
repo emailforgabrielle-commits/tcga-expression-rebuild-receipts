@@ -1,0 +1,16 @@
+[
+  {
+    "part_number": 1,
+    "file_name": "TCGA-MESO_part001.tsv.gz",
+    "sha256": "98e1bc5c1c480e968da9be6b1f177c42127739cdc0873c6e75b5de8975974d5a",
+    "rows": 4003560,
+    "size_mb": 16.46
+  },
+  {
+    "part_number": 2,
+    "file_name": "TCGA-MESO_part002.tsv.gz",
+    "sha256": "02a40c3b7aef274ac90716c50d08003ed717ebab5c6ea7ccc124e3fcc5951179",
+    "rows": 1273860,
+    "size_mb": 5.24
+  }
+]
