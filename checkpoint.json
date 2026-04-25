@@ -1,8 +1,8 @@
 {
   "project": "TCGA-TGCT",
-  "file_idx": 125,
-  "parts_flushed": 1,
-  "rows_so_far": 7339860,
+  "file_idx": 150,
+  "parts_flushed": 2,
+  "rows_so_far": 8795700,
   "parts": [
     {
       "project": "TCGA-TGCT",
@@ -11,7 +11,15 @@
       "local_path": "/outputs/parts/TCGA-TGCT/TCGA-TGCT_part001.tsv.gz",
       "sha256": "ef28894ac74476accaf2c381a8e5bb0d7d684b9b1d06a770c7b523aba398ce05",
       "rows_in_part": 4003560
+    },
+    {
+      "project": "TCGA-TGCT",
+      "part_number": 2,
+      "file_name": "TCGA-TGCT_part002.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-TGCT/TCGA-TGCT_part002.tsv.gz",
+      "sha256": "300e52e3445495c7193978fae86372843733e86a47d4722dd309a27175081ed7",
+      "rows_in_part": 4003560
     }
   ],
-  "ts": "2026-04-25T09:41:17.340933"
+  "ts": "2026-04-25T09:42:02.352327"
 }
