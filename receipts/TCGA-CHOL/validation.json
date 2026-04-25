@@ -2,15 +2,15 @@
   "project": "TCGA-CHOL",
   "gdc_file_count": 44,
   "expected_rows": 2669040,
-  "rows_written": 2608380,
+  "rows_written": 2669040,
   "schema": [
     "gene_id",
     "case_submitter_id",
     "cancer_type_id",
     "raw_count"
   ],
-  "part_count": 2,
-  "sha256": "7ed2000fddda700b683d25e5f9b372b7ba674bfea0c7ae3dd8e7da304c07b45c",
+  "part_count": 3,
+  "sha256": "77eb7c8620cd4d7bfa2276abf6e090167b7c79e535f8eb3347053d50310b07e0",
   "parts": [
     {
       "project": "TCGA-CHOL",
@@ -27,22 +27,28 @@
       "local_path": "/outputs/parts/TCGA-CHOL/TCGA-CHOL_part002.tsv.gz",
       "sha256": "16f02192603fbc942c6fce6e9275b294d88ba4495a45349e619d1385d145fecc",
       "rows_in_part": 424620
+    },
+    {
+      "project": "TCGA-CHOL",
+      "part_number": 3,
+      "file_name": "TCGA-CHOL_part003.tsv.gz",
+      "local_path": "/outputs/parts/TCGA-CHOL/TCGA-CHOL_part003.tsv.gz",
+      "sha256": "d011b98d517f27680dd1d0b6f2e69061264fec4a2d748d07d474e22e203a3223",
+      "rows_in_part": 60660
     }
   ],
   "validation": {
-    "passed": false,
-    "row_count_match": false,
+    "passed": true,
+    "row_count_match": true,
     "no_missing": true,
-    "no_dups": false,
+    "no_dups": true,
     "parts_exist": true,
     "gz_valid": true,
     "missing_files": [],
-    "dup_cases": [
-      "TCGA-W5-AA30"
-    ],
+    "dup_cases": [],
     "expected_rows": 2669040,
-    "rows_written": 2608380
+    "rows_written": 2669040
   },
-  "status": "PARTIAL",
-  "timestamp": "2026-04-25T09:17:37.469487"
+  "status": "COMPLETE",
+  "timestamp": "2026-04-25T09:31:27.864655"
 }
