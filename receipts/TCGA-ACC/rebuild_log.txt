@@ -1,0 +1,8 @@
+project: TCGA-ACC
+gdc_file_count: 79
+expected_rows: 4792140
+rows_written: 4792140
+status: COMPLETE
+sha256: 358848522f1e05cefcabff08dd1c524a66590558528c057a4f5231c70fba6d19
+parts: 2
+timestamp: 2026-04-25T09:05:45.767728
