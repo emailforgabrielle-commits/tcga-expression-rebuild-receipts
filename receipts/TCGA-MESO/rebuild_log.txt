@@ -1,0 +1,8 @@
+project: TCGA-MESO
+gdc_file_count: 87
+expected_rows: 5277420
+rows_written: 5277420
+status: COMPLETE
+sha256: 1a72f138c99920f814232f6cefbdb1795e9a54ddce9e7c6f18ae9d57967dbc32
+parts: 2
+timestamp: 2026-04-25T09:27:22.126640
